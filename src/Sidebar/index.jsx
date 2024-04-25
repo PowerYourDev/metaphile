@@ -7,11 +7,11 @@ import SidebarItem from "./SidebarItem";
 
 const Siderbar = () => {
   return (
-    <div className="w-[180px] h-screen fixed px-2 py-1 border border-gray-300 ">
+    <div className="w-[200px] h-screen fixed px-2 py-1 border border-gray-300 ">
       <div className="flex items-start my-3 justify-center">
         <IoLogoApple />
-        <h1>
-          Metaphile Public <br /> School
+        <h1 className="font-bold text-center">
+          Metaphile Public <br/> School
         </h1>
       </div>
 
@@ -25,6 +25,10 @@ const Siderbar = () => {
             />
           );
         })}
+      </div>
+
+      <div className="  flex justify-center mt-5  ">
+         <h1 className="bg-[#73fcf4] px-5 py-1 rounded-md">Logout</h1>
       </div>
     </div>
   );

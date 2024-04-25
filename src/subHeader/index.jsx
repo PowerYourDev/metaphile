@@ -6,7 +6,7 @@ import { schoolData } from '../constants'
 
 const SubHeader = () => {
   return (
-    <div className='mt-1 mr-1 border-4 border-[#4c8fb8] py-1'>
+    <div className='my-3 mr-1 border-4 border-[#4c8fb8] py-1'>
     
     <div className='flex gap-x-4'>
     {
